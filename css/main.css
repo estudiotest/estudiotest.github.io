@@ -134,3 +134,7 @@ nav {
     font-weight:bold;
     font-size: 15px;
 }
+
+p {
+    text-align: justify;
+}
