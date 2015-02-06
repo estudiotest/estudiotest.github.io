@@ -6,3 +6,29 @@ published: false
 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 
+### Subtitle
+
+**** Some Bold Text
+
+And a Quotation > We loved with a love that was more than love
+
+And a LIST: 
+
+- Item 1
+- Item 2
+- Item 3
+
+NUMB3RS:
+
+1. ONE
+2. TWO
+3. THREE
+
+
+
+
+
+
+
+
+
