@@ -138,3 +138,7 @@ nav {
 p {
     text-align: justify;
 }
+
+img.parceiros:hover {
+    opacity:0.5;
+}
