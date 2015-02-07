@@ -29,15 +29,10 @@ title: Publicações
                         <a href="{{ post.url }}">{{ post.title }}</a>
                         <!-- Author -->
                         <p class="lead">
-                    by <a href="#">{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</a>
-                </p>
+                    por <a href="#">{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</a>                </p></h2>
 
-                <hr>
-
-                <!-- Date/Time -->
-                <p><span class="glyphicon glyphicon-time"></span>{{ page.date | date: "%b %-d, %Y" }}</p>
-
-                    </h2>
+                
+                    
                     <hr>
               
                 {% endfor %}

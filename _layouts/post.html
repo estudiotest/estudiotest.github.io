@@ -17,21 +17,21 @@ layout: default
 
                 <!-- Author -->
                 <p class="lead">
-                    by <a href="#">{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</a>
+                    por <a href="#">{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</a>
                 </p>
 
                 <hr>
 
                 <!-- Date/Time -->
-                <p><span class="glyphicon glyphicon-time"></span>{{ page.date | date: "%b %-d, %Y" }}</p>
+                <p><!--<strong>{{ page.date | date: "%-d - %-m - %Y" }}</strong>--></p>
 
-                <hr>
+                
 
                  <article class="post-content">
     				{{ content }}
   				</article>
 
- 			</div
+ 			</div>
 		</div>
 	</div>
 </div>
