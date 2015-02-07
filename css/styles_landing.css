@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
+body {
+    background-color:#1B1C16;
+    color:white;
+    font-family: Ubuntu;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+    
+#logo {
+    padding-bottom: 50px;
+    padding-right:10px;
+}
+    
+#message {
+  font-weight:bold; 
+  font-size:25px; 
+  padding-bottom:20px;
+}
