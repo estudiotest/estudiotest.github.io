@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to Jekyll!"
+title: "Dicas de Corrida!"
 date: {}
 categories: null
 published: true
