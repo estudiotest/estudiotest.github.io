@@ -6,7 +6,7 @@ author: Raul Pereira
 categories: 
 ---
 
-No dia 7 de fevereiro decorreu a inauguração do novo espaço do Estudio Foz. Neste dia especial estiveram presentes vários amigos. Abaixo podem ser vistas algumas fotografias desse dia.
+No dia 7 de fevereiro decorreu a inauguração do novo espaço do Estudio Foz. Abaixo podem ser vistas algumas fotografias desse dia.
 
 Um grande obrigado a todos os que estiveram presentes e a todos os que apoiam este projeto.
 
