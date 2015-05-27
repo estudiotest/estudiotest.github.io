@@ -22,3 +22,8 @@ img {
   font-size:25px; 
   padding-bottom:20px;
 }
+
+.jumbotron p{
+  font-size: 10px;
+  font-weight:100px;
+}

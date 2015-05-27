@@ -194,3 +194,15 @@ ul {
 
 .prof {
 }
+
+.jumbotron p {
+  font-size: 18px;
+  font-weight:100px;
+}
+
+.container .jumbotron {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
