@@ -5,13 +5,13 @@
 
   <body>
 
-    
+
         {% include header.html %}
-        
+
         {{ content }}
 
         {% include footer.html %}
-  
+
     <!-- jQuery -->
     <script src="/js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
@@ -20,6 +20,17 @@
     $('.carousel').carousel({
         interval: 2500 //changes the speed
     })
+
+    $(document).ready(function() {
+
+        var docHeight = $(window).height();
+        var footerHeight = $('#footer').height();
+        var footerTop = $('#footer').position().top + footerHeight;
+
+        if (footerTop < docHeight) {
+            $('#footer').css('margin-top', (docHeight - footerTop) + 'px');
+        }
+    });
     </script>
   </body>
 
