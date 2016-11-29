@@ -1,37 +1,39 @@
 ---
 layout: default
 ---
+
 <div class="post">
-	 <!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-
-            <!-- Blog Post Content Column -->
-            <div class="col-lg-8">
-
-                <!-- Blog Post -->
-
-                <!-- Title -->
-                <h1>{{ page.title }}</h1>
-
-                <!-- Author -->
-                <p class="lead">
-                    por <a href="#">{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</a>
-                </p>
-
-                <hr>
-
-                <!-- Date/Time -->
-                <p><!--<strong>{{ page.date | date: "%-d - %-m - %Y" }}</strong>--></p>
-
-                
-
-                 <article class="post-content">       
-    				{{ content }}
-  				</article>
-			    
- 			</div>
-		</div>
-	</div>
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <!-- Blog Post Content Column -->
+      <div class="col-lg-8">
+        <!-- Blog Post -->
+        <h1>{{ page.title }}</h1>
+        <p class="lead">
+          {% assign m = page.date | date: "%-m" %}
+          {{ page.date | date: "%-d" }}
+          {% case m %}
+          {% when '1' %}Janeiro
+          {% when '2' %}Fevereiro
+          {% when '3' %}Março
+          {% when '4' %}Abril
+          {% when '5' %}Maio
+          {% when '6' %}Junho
+          {% when '7' %}Julho
+          {% when '8' %}Agosto
+          {% when '9' %}Setembro
+          {% when '10' %}Outubro
+          {% when '11' %}Novembro
+          {% when '12' %}Dezembro
+          {% endcase %}
+          {{ page.date | date: "%Y" }} • {% if page.author %}{{ page.author }}{% endif %}{% if page.meta %}{{ page.meta }}{% endif %}
+        </p>
+        <hr>
+        <article class="post-content">
+          {{ content }}
+        </article>
+      </div>
+    </div>
+  </div>
 </div>
